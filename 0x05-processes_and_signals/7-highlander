@@ -1,11 +1,228 @@
-#!/usr/bin/env bash
-# displays To infinity and beyond indefinitely
-# With a sleep 2 in between each iteration
-# I am invincible!!! when receiving a SIGTERM signal
-
-while true
-do 
-	echo "To infinity and beyond"
-	sleep 2
-	trap 'echo "I am invincible!!!"' SIGTERM
-done
+Script started on 2024-02-23 13:12:07-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="88" LINES="35"]
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m[?1l>[?2004l
+0-what-is-my-pid       3-show_your_bash_pid_made_easy  6-stop_me_if_you_can  README.md
+1-list_your_processes  4-to_infinity_and_beyond        7-highlander
+2-show_your_bash_pid   5-dont_stop_me_now              8-beheaded_process
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mb[24m[4mb[4ma[24m[4mb[4ma[4ms[24m[24m[36mb[24m[36ma[24m[36ms[36mh[39m [1m7[0m[1m7[1m-[0m[0m7[0m-7[8D[39mb[39ma[39ms[39mh[4C
+[JCompleting `script file'[A[0m[27m[24m[0m[39m[4Cbash 7-7[K[0m[39m[8D[36mb[36ma[36ms[36mh[39m [1m7[1m-[0m [1m-[1mhighlander[0m[1m [0m[0m [?1l>[?2004l
+[J                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m[?1l>[?2004l
+0-what-is-my-pid       3-show_your_bash_pid_made_easy  6-stop_me_if_you_can  README.md
+1-list_your_processes  4-to_infinity_and_beyond        7-highlander
+2-show_your_bash_pid   5-dont_stop_me_now              8-beheaded_process
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mc[24m[4mc[24m[38;2;153;153;153md sorting_algorithms[39m[20D[4mc[39m[4mh[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[38;2;153;153;153mmod 600 ~/.ssh/id_rsa[39m[21D[4mc[4mh[39m[4mm[24m[4mm[39m[4mo[24m[24m[36mc[24m[36mh[24m[36mm[24m[36mo[36md[39m[39m [39m_[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D [38;2;153;153;153m600 ~/.ssh/id_rsa[39m[17D[39m+[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153mx 0-run[39m[39mx[39m [39m[1m7[0m[39m [39m [39m [39m [1m7[1m-[0m[1m-[1mhighlander[0m[1m [0m[0m [?1l>[?2004l
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mb[24m[4mb[24m[38;2;153;153;153mash 7-highlander[39m[16D[4mb[39m[4ma[24m[4mb[4ma[39m[4ms[24m[24m[36mb[24m[36ma[24m[36ms[36mh[39m[39m [39m[1m7[0m[1m7[39m[1m-[0m[1m-[39m[1mh[39m[1mi[39m[1mg[39m[1mh[39m[1ml[39m[1ma[39m[1mn[39m[1md[39m[1me[39m[1mr[0m[1m [0m[0m [?1l>[?2004l
+7-highlander: line 1: Script: command not found
+7-highlander: line 2: syntax error near unexpected token `('
+7-highlander: line 2: `                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]'
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mc[24m[4mc[24m[38;2;153;153;153mhmod +x 7-highlander[39m[20D[4mc[39m[4mm[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[4mc[4mm[4md[24m[4md[4mo[24m[4md[24m[24m [4mc[4mm[24m[24m [4mc[24m[24m [24m [36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m[?1l>[?2004l
+0-what-is-my-pid       3-show_your_bash_pid_made_easy  6-stop_me_if_you_can  README.md
+1-list_your_processes  4-to_infinity_and_beyond        [0m[01;32m7-highlander[0m
+2-show_your_bash_pid   5-dont_stop_me_now              8-beheaded_process
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mc[24m[4mc[24m[38;2;153;153;153mhmod +x 7-highlander[39m[20D[4mc[39m[4mh[24m[4mc[4mh[39m[4mm[24m[4mm[39m[4mo[24m[24m[36mc[24m[36mh[24m[36mm[24m[36mo[36md[39m[39m [39m+[39mx[39m [39m[1m0[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153m-run[39m[1m0[39m[1m-[0m[1m-[39m[1mw[0m[39m [39m [1mw[1mh[0m[1mh[1mat-is-my-pid[0m[1m [0m[0m [?1l>[?2004l
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mb[24m[4mb[24m[38;2;153;153;153mash 7-highlander[39m[16D[4mb[39m[4ma[24m[4mb[4ma[39m[4ms[24m[24m[36mb[24m[36ma[24m[36ms[36mh[39m[39m [39m[1m0[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[1m0[1m-[0m[1m-[1mwhat-is-my-pid[0m[1m [0m[0m [?1l>[?2004l
+514567
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153mudo vi /etc/yum.repos.d/mongodb-org-4.4.repo[39m
+[K[A[5C[24m[36ms[36mh[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[6C[39m[4ms[39m[4mh[4me[24m[24m[36ms[24m[36mh[39m[24m [39m[4ms[24m[39m [4ms[24m[38;2;153;153;153mudo vi /etc/yum.repos.d/mongodb-org-4.4.repo[1B[39m[K[A[5C[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [1B[K[A[4C[36mbash[39m [1m0-what-is-my-pid[0m[21D[36mc[36mh[36mm[36mo[36md[39m[0m [0m+[0mx[0m [1m0[1m-[1mw[1mh[1ma[1mt[1m-[1mi[1ms[1m-[1mm[1my[1m-pid[0m[1mi[0m[0m [38;2;153;153;153md[39m[1mp[0m[0m [39m [38;2;153;153;153mid[39m[1m-[0m[0m [39m [39m [1my[0m[0m [38;2;153;153;153m-pid[39m[1mm[0m[0m [39m [39m [39m [39m [38;2;153;153;153my-pid[39m[1m-[0m[0m [39m [39m [39m [39m [39m [38;2;153;153;153mmy-pid[39m[1ms[0m[0m [39m [39m [39m [39m [39m [39m [38;2;153;153;153m-my-pid[39m[1mi[0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153ms-my-pid[39m[8D[1m-[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [9D[1mt[0m[0m [38;2;153;153;153m-is-my-pid[39m[10D[1ma[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153mt-is-my-pid[39m[11D[1mh[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mat-is-my-pid[39m[12D[1mw[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153mhat-is-my-pid[39m[13D[1m-[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mwhat-is-my-pid[39m[14D[1m0[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153m-what-is-my-pid[39m[15D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153m0-what-is-my-pid[39m[16D[39m[1m1[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[1m1[1m-[0m[1m-[1mlist_your_processes[0m[1m [0m[0m [?1l>[?2004l[1B                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mb[24m[4mb[24m[38;2;153;153;153mash 0-what-is-my-pid[39m[20D[4mb[39m[4ma[24m[4mb[4ma[39m[4ms[24m[24m[36mb[24m[36ma[24m[36ms[36mh[39m[39m [39m[1m1[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[1m1[1m-list_your_processes[0m[1m [0m[0m [?1l>[?2004l
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0  0.0      0     0 ?        S    Feb22   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [netns]
+root          11  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [mm_percpu_wq]
+root          12  0.0  0.0      0     0 ?        I    Feb22   0:00  \_ [rcu_tasks_kthrea
+root          13  0.0  0.0      0     0 ?        I    Feb22   0:00  \_ [rcu_tasks_rude_k
+root          14  0.0  0.0      0     0 ?        I    Feb22   0:00  \_ [rcu_tasks_trace_
+root          15  0.1  0.0      0     0 ?        S    Feb22   1:08  \_ [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    Feb22   0:27  \_ [rcu_preempt]
+root          17  0.0  0.0      0     0 ?        S    Feb22   0:02  \_ [migration/0]
+root          18  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [kdevtmpfs]
+root          22  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [inet_frag_wq]
+root          23  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [kauditd]
+root          25  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [khungtaskd]
+root          26  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [oom_reaper]
+root          28  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [writeback]
+root          29  0.0  0.0      0     0 ?        S    Feb22   0:31  \_ [kcompactd0]
+root          30  0.0  0.0      0     0 ?        SN   Feb22   0:00  \_ [ksmd]
+root          31  0.0  0.0      0     0 ?        SN   Feb22   0:05  \_ [khugepaged]
+root          32  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [kintegrityd]
+root          33  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [kblockd]
+root          34  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [blkcg_punt_bio]
+root          35  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [tpm_dev_wq]
+root          36  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [edac-poller]
+root          37  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [devfreq_wq]
+root          39  0.0  0.0      0     0 ?        S    Feb22   0:16  \_ [kswapd0]
+root          46  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [kthrotld]
+root          48  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [acpi_thermal_pm]
+root          49  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [mld]
+root          50  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [ipv6_addrconf]
+root          55  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [kstrp]
+root          59  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [kworker/u3:0]
+root         122  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [cryptd]
+root         127  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [ata_sff]
+root         132  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [scsi_eh_0]
+root         133  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [scsi_tmf_0]
+root         135  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [scsi_eh_1]
+root         136  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [scsi_tmf_1]
+root         138  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [scsi_eh_2]
+root         139  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [scsi_tmf_2]
+root         181  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [irq/18-vmwgfx]
+root         182  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [ttm]
+root         216  0.0  0.0      0     0 ?        S    Feb22   0:08  \_ [jbd2/sda1-8]
+root         217  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [ext4-rsv-conver]
+root         358  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [psimon]
+root         466  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [rpciod]
+root         467  0.0  0.0      0     0 ?        I<   Feb22   0:00  \_ [xprtiod]
+root       38627  0.0  0.0      0     0 ?        S    Feb22   0:00  \_ [psimon]
+root      485747  0.0  0.0      0     0 ?        I    12:17   0:01  \_ [kworker/u2:0-ext
+root      490462  0.0  0.0      0     0 ?        I    12:26   0:01  \_ [kworker/u2:2-flu
+root      496718  0.0  0.0      0     0 ?        I    12:39   0:00  \_ [kworker/u2:3-ext
+root      497618  0.2  0.0      0     0 ?        I    12:40   0:05  \_ [kworker/0:0-even
+root      502975  0.0  0.0      0     0 ?        I<   12:51   0:00  \_ [kworker/0:0H-kbl
+root      510872  0.3  0.0      0     0 ?        I    13:07   0:01  \_ [kworker/0:2-even
+root      511006  0.2  0.0      0     0 ?        I<   13:07   0:01  \_ [kworker/0:1H-kbl
+root      513600  0.3  0.0      0     0 ?        I    13:12   0:00  \_ [kworker/0:1-even
+root      514049  0.1  0.0      0     0 ?        I<   13:13   0:00  \_ [kworker/0:2H-kbl
+root           1  0.0  0.4  22492  8284 ?        Ss   Feb22   0:05 /sbin/init splash
+root         278  0.0  0.4  67384  8716 ?        Ss   Feb22   0:05 /usr/lib/systemd/syst
+root         323  0.0  0.2  28980  5552 ?        Ss   Feb22   0:03 /usr/lib/systemd/syst
+root         370  0.0  0.0   8264  1728 ?        Ss   Feb22   0:07 /usr/sbin/haveged --F
+root         455  0.0  0.3 310900  6608 ?        Ssl  Feb22   0:00 /usr/libexec/accounts
+message+     457  0.0  0.2  10848  5120 ?        Ss   Feb22   0:34 /usr/bin/dbus-daemon 
+polkitd      460  0.0  0.3 384880  7664 ?        Ssl  Feb22   0:03 /usr/lib/polkit-1/pol
+root         462  0.0  0.2  18624  5632 ?        Ss   Feb22   0:01 /usr/lib/systemd/syst
+root         519  0.0  0.1   6640  2432 ?        Ss   Feb22   0:00 /usr/sbin/cron -f
+root         548  0.0  0.3 333928  7892 ?        Ssl  Feb22   0:03 /usr/sbin/NetworkMana
+root         569  0.0  0.2 392156  5672 ?        Ssl  Feb22   0:00 /usr/sbin/ModemManage
+root         604  0.0  0.1 358552  3204 ?        Sl   Feb22   0:47 /usr/sbin/VBoxService
+root         662  0.0  0.2 382320  5856 ?        SLsl Feb22   0:00 /usr/sbin/lightdm
+root         674  1.5 15.1 766960 305532 tty7    Ssl+ Feb22  16:40  \_ /usr/lib/xorg/Xor
+root         873  0.0  0.2 236268  5416 ?        Sl   Feb22   0:00  \_ lightdm --session
+kali         916  0.0  0.9 341632 19428 ?        Ssl  Feb22   0:11      \_ xfce4-session
+kali        1019  0.0  0.0   8600   628 ?        Ss   Feb22   0:01          \_ /usr/bin/
+kali        1064  0.6  1.6 736868 32264 ?        Sl   Feb22   6:37          \_ xfwm4 --d
+kali        1100  0.0  0.9 305528 19948 ?        Sl   Feb22   0:10          \_ xfsetting
+kali        1110  0.0  1.2 549592 24436 ?        Sl   Feb22   0:14          \_ xfce4-pan
+kali        1122  0.0  1.5 540160 31132 ?        Sl   Feb22   0:06          |   \_ /usr/
+kali        1123  0.0  0.9 413876 18720 ?        Sl   Feb22   0:00          |   \_ /usr/
+kali        1124  0.4  0.9 366732 19304 ?        Sl   Feb22   4:22          |   \_ /usr/
+kali        1125  0.0  1.3 478008 26528 ?        Sl   Feb22   0:01          |   \_ /usr/
+kali        1126  0.0  1.1 481036 22944 ?        Sl   Feb22   0:01          |   \_ /usr/
+kali        1127  0.0  1.2 399664 25300 ?        Sl   Feb22   0:41          |   \_ /usr/
+kali        1134  0.0  1.1 407712 22216 ?        Sl   Feb22   0:01          |   \_ /usr/
+kali       20133 18.0 14.2 3385376 286148 ?      Sl   Feb22 182:13          |   \_ /usr/
+kali       20244  0.0  0.9 219240 19584 ?        Sl   Feb22   0:00          |       \_ /
+kali       20272  0.0  3.6 2465740 73168 ?       Sl   Feb22   0:12          |       \_ /
+kali       20350  0.0  2.4 2433472 49304 ?       Sl   Feb22   0:02          |       \_ /
+kali       20430  1.4  3.4 2687312 69596 ?       Sl   Feb22  14:39          |       \_ /
+kali      266277  0.0  0.8 375896 17536 ?        Sl   04:50   0:00          |       \_ /
+kali      266280  0.0  0.9 376920 18344 ?        Sl   04:50   0:00          |       \_ /
+kali      453455  0.8  9.4 2636904 190436 ?      Sl   11:14   1:00          |       \_ /
+kali      465776  1.1  8.4 2615524 169436 ?      Sl   11:37   1:05          |       \_ /
+kali      466095  0.0  1.9 2402864 39308 ?       Sl   11:38   0:00          |       \_ /
+kali      466190  0.0  1.9 2402864 39080 ?       Sl   11:38   0:00          |       \_ /
+kali      466697  0.0  1.9 2402864 39308 ?       Sl   11:39   0:00          |       \_ /
+kali        1115  0.0  0.7 414992 16052 ?        Sl   Feb22   0:00          \_ Thunar --
+kali        1121  0.0  2.3 503368 47760 ?        Sl   Feb22   0:10          \_ xfdesktop
+kali        1200  0.0  0.8 266456 16516 ?        Sl   Feb22   0:05          \_ xfce4-pow
+kali        1230  0.0  0.2 381604  5288 ?        Sl   Feb22   0:00          \_ /usr/libe
+kali        1235  0.0  1.0 633380 20636 ?        Sl   Feb22   0:01          \_ nm-applet
+kali        1245  0.0  0.6 260308 12756 ?        Sl   Feb22   0:00          \_ /usr/libe
+kali        1246  0.0  1.0 571252 20788 ?        Sl   Feb22   0:04          \_ light-loc
+kali        1259  0.0  0.2 309904  5944 ?        Sl   Feb22   0:00          \_ xiccd
+kali        1303  0.0  1.2 448348 25472 ?        Sl   Feb22   0:01          \_ /usr/bin/
+root         676  0.0  0.0   5896  1664 tty1     Ss+  Feb22   0:00 /sbin/agetty -o -p --
+rtkit        743  0.0  0.1  22812  2944 ?        SNsl Feb22   0:08 /usr/libexec/rtkit-da
+kali         880  0.0  0.3  20848  6400 ?        Ss   Feb22   0:00 /usr/lib/systemd/syst
+kali         881  0.0  0.0  21480  1612 ?        S    Feb22   0:00  \_ (sd-pam)
+kali         898  0.0  0.2 119696  5888 ?        S<sl Feb22   0:00  \_ /usr/bin/pipewire
+kali         902  0.0  0.1  95228  3840 ?        Ssl  Feb22   0:00  \_ /usr/bin/pipewire
+kali         903  0.0  0.5 575704 10976 ?        S<sl Feb22   0:01  \_ /usr/bin/wireplum
+kali         904  0.0  0.2 101940  5772 ?        S<sl Feb22   0:00  \_ /usr/bin/pipewire
+kali         905  0.0  0.3 314296  6220 ?        SLsl Feb22   0:00  \_ /usr/bin/gnome-ke
+kali         910  0.0  0.2   9876  4736 ?        Ss   Feb22   0:01  \_ /usr/bin/dbus-dae
+kali        1029  0.0  0.3 458868  6476 ?        Ssl  Feb22   0:00  \_ /usr/libexec/at-s
+kali        1037  0.0  0.2   9420  4096 ?        S    Feb22   0:00  |   \_ /usr/bin/dbus
+kali        1049  0.0  0.3 238396  6824 ?        Sl   Feb22   0:06  \_ /usr/libexec/at-s
+kali        1061  0.0  0.1  81272  2512 ?        SLs  Feb22   0:00  \_ /usr/bin/gpg-agen
+kali        1068  0.0  0.2 311764  5748 ?        Ssl  Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1377  0.0  0.3 533204  7020 ?        Sl   Feb22   0:00  |   \_ /usr/libexec/
+kali        1077  0.0  0.2 457280  5328 ?        Sl   Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1170  0.0  1.2 485856 25116 ?        Ssl  Feb22   0:09  \_ /usr/lib/x86_64-l
+kali        1240  0.0  0.3 647136  7600 ?        Ssl  Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1300  0.0  0.2 230268  4608 ?        Ssl  Feb22   0:00  \_ /usr/libexec/dcon
+kali        1304  0.0  0.2 307332  5128 ?        Ssl  Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1323  0.0  0.2 307356  5348 ?        Ssl  Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1329  0.0  0.3 387084  7748 ?        Ssl  Feb22   0:09  \_ /usr/libexec/gvfs
+kali        1343  0.0  0.2 308316  5344 ?        Ssl  Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1397  0.0  0.2 233864  5396 ?        Ssl  Feb22   0:00  \_ /usr/libexec/gvfs
+kali        1476  0.0  0.2  49032  4096 ?        Ss   Feb22   0:00  \_ /usr/libexec/blue
+kali       20184  0.0  0.3 474628  7444 ?        Ssl  Feb22   0:00  \_ /usr/libexec/xdg-
+kali       20189  0.0  0.4 534400  8208 ?        Ssl  Feb22   0:00  \_ /usr/libexec/xdg-
+root       20208  0.0  0.0   2484  1664 ?        Ss   Feb22   0:00  |   \_ fusermount3 -
+kali       20201  0.0  0.2 310624  5868 ?        Ssl  Feb22   0:00  \_ /usr/libexec/xdg-
+kali       20211  0.0  0.7 410012 14264 ?        Ssl  Feb22   0:00  \_ /usr/libexec/xdg-
+kali         984  0.0  0.0  19172  1024 ?        S    Feb22   0:00 /usr/bin/VBoxClient -
+kali         986  0.0  0.1 217360  2560 ?        Sl   Feb22   0:00  \_ /usr/bin/VBoxClie
+kali         999  0.0  0.0  19172  1152 ?        S    Feb22   0:00 /usr/bin/VBoxClient -
+kali        1000  0.1  0.1 217460  2432 ?        Sl   Feb22   1:35  \_ /usr/bin/VBoxClie
+kali        1006  0.0  0.0  19172  1152 ?        S    Feb22   0:00 /usr/bin/VBoxClient -
+kali        1008  0.8  0.1 217976  2176 ?        Sl   Feb22   8:28  \_ /usr/bin/VBoxClie
+kali        1079  0.0  0.0  19172  1152 ?        S    Feb22   0:00 /usr/bin/VBoxClient -
+kali        1080  0.0  0.1 217564  2432 ?        Sl   Feb22   0:37  \_ /usr/bin/VBoxClie
+root        1104  0.0  0.4 317244  9248 ?        Ssl  Feb22   0:49 /usr/libexec/upowerd
+root        1250  0.0  0.4 471844  9552 ?        Ssl  Feb22   0:04 /usr/libexec/udisks2/
+kali        1257  0.0  0.0  14664  1772 ?        Ssl  Feb22   0:00 xcape -e Super_L Cont
+colord      1305  0.0  0.3 318500  6828 ?        Ssl  Feb22   0:00 /usr/libexec/colord
+kali       10559  0.0  1.6 456184 32920 ?        Sl   Feb22   0:51 /usr/bin/qterminal
+kali       10562  0.0  0.3  14184  7212 pts/0    Ss   Feb22   0:55  \_ /usr/bin/zsh
+kali      442039  0.0  0.1  10044  2048 pts/0    T    10:51   0:00      \_ git push --se
+kali      442040  0.0  0.1  10044  2176 pts/0    T    10:51   0:00      |   \_ /usr/lib/
+kali      442041  0.0  0.1 103272  3424 pts/0    T    10:51   0:00      |       \_ /usr/
+kali      513420  0.0  0.1   5504  2176 pts/0    S+   13:12   0:00      \_ script 7-high
+kali      513421  2.8  0.3  13692  7424 pts/1    Ss   13:12   0:04          \_ zsh -i
+kali      514795  0.0  0.1   6964  3200 pts/1    S+   13:14   0:00              \_ bash 
+kali      514796 75.0  0.2  10852  4352 pts/1    R+   13:14   0:00                  \_ p
+root       20330  0.0  0.3 398196  6272 ?        Ssl  Feb22   0:00 /usr/sbin/pcscd --for
+kali      452835  0.0  0.1  10044  2304 pts/0    S    11:13   0:00 /usr/lib/git-core/git
+kali      498960  0.8  7.4 1178614568 149548 ?   Ssl  12:43   0:15 /usr/share/code/code 
+kali      498964  0.0  1.8 33777376 37376 ?      S    12:43   0:00  \_ /usr/share/code/c
+kali      499009  0.3  3.9 34070624 78496 ?      Sl   12:43   0:06  |   \_ /usr/share/co
+kali      498965  0.0  1.9 33777360 39680 ?      S    12:43   0:00  \_ /usr/share/code/c
+kali      498967  0.0  0.3 33777384 6728 ?       S    12:43   0:00  |   \_ /usr/share/co
+kali      499056  2.1  9.9 1188906736 200388 ?   Sl   12:43   0:40  |       \_ /usr/shar
+kali      499020  0.0  2.6 33827380 52372 ?      Sl   12:43   0:01  \_ /usr/share/code/c
+kali      499138  0.3  4.3 1178405332 87172 ?    Sl   12:43   0:06  \_ /usr/share/code/c
+kali      499139  0.1  4.1 1178422284 84088 ?    Sl   12:43   0:02  \_ /usr/share/code/c
+kali      499167  0.1  5.3 1178406724 106956 ?   Sl   12:43   0:03  \_ /usr/share/code/c
+kali      498989  0.0  0.1 33575632 2048 ?       Sl   12:43   0:00 /usr/share/code/chrom
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m[?1l>[?2004l
+[0m[01;32m0-what-is-my-pid[0m       3-show_your_bash_pid_made_easy  6-stop_me_if_you_can  README.md
+[01;32m1-list_your_processes[0m  4-to_infinity_and_beyond        [01;32m7-highlander[0m
+2-show_your_bash_pid   5-dont_stop_me_now              8-beheaded_process
+                                                                                        ]0;kali@kali: ~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/System_engineering_devops/alx-system_engineering-devops/0x05-processes_and_signals[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mf[24m[4mf[24m[38;2;153;153;153mind *syslog[39m[11D[4mf[39m[4mi[24m[4mf[4mi[39m[4mt[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D [4mf[4mi[24m[24m [38;2;153;153;153mnd *syslog[39m[10D[4mf[24m[24
