@@ -1,27 +1,5 @@
 #!/usr/bin/env bash
+# Displays listening ports. Includes listening sockets as well
+# + as the PID and name of the program to which each socket belongs.
 
-# Check if netstat command is available
-if ! command -v netstat &> /dev/null; then
-    echo "Error: netstat command is not available."
-    exit 1
-fi
-
-# Display header
-echo "Listening Ports:"
-echo "PID    Program Name    Port"
-
-# Retrieve listening sockets and associated PID
-listening_sockets=$(netstat -tuln | grep LISTEN)
-
-# Iterate over each listening socket
-while read -r line; do
-    # Extract PID and port number
-    pid=$(echo "$line" | awk '{print $7}' | awk -F'/' '{print $1}')
-    port=$(echo "$line" | awk '{print $4}' | awk -F':' '{print $2}')
-    
-    # Retrieve program name associated with PID
-    program=$(ps -p "$pid" -o comm= 2>/dev/null)
-    
-    # Display PID, program name, and port
-    echo "$pid    $program    $port"
-done <<< "$listening_sockets"
+netstat -l --program
